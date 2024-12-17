@@ -39,11 +39,9 @@ function fetchJSON() {
     success: function (data) {
 
       mImages = data.images;
-      
-      document.getElementById('photo').src = mImages[mCurrentIndex].imgPath
-      document.getElementById('flower').textContent = `Flower: ${mImages[mCurrentIndex].flower}`
-      document.getElementById('hemisphere').textContent = `Hemisphere: ${mImages[mCurrentIndex].hemisphere}`
-      document.getElementById('description').textContent = `Description: ${mImages[mCurrentIndex].description}`
+
+      swapPhoto();
+
     },
     error: function () {
       console.log('Connection error.');
@@ -56,14 +54,20 @@ function fetchJSON() {
 // Function to swap and display the next photo in the slideshow
 function swapPhoto() {
   // Access mImages[mCurrentIndex] to update the image source and details
+  let theData = mImages[mCurrentIndex];
   // Update the #photo element's src attribute with the current image's path
+  $('#photo').attr('src', theData.imgPath)
   // Update the .location, .description, and .date elements with the current image's details
+  $('#flower').text(`Flower: ${theData.flower}`)
+  $('#hemisphere').text(`Hemisphere: ${theData.hemisphere}`)
+  $('#description').text(`Description: ${theData.description}`)
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
 function showNextPhoto() {
   // Increment mCurrentIndex and call swapPhoto()
   mCurrentIndex++
+  swapPhoto()
   // Ensure it loops back to the beginning if mCurrentIndex exceeds array length
   if (mCurrentIndex === 10) {
     mCurrentIndex = 0
@@ -75,6 +79,7 @@ function showNextPhoto() {
 function showPrevPhoto() {
   // Decrement mCurrentIndex and call swapPhoto()
   mCurrentIndex--
+  swapPhoto()
   // Ensure it loops to the end if mCurrentIndex is less than 0
   if (mCurrentIndex === -1) {
     mCurrentIndex = 9
