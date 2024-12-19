@@ -4,61 +4,61 @@
             "imgPath": "img/images/flower1.webp",
             "flower": "Lily",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Large, trumpet-shaped flowers with prominent stamens and long, slender leaves. They come in a variety of colors, including white, pink, and orange."
         },
         {
             "imgPath": "img/images/flower2.webp",
             "flower": "Dahlia",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Dahlia flowers have vibrant, multi-petaled blooms with a wide range of colors, from white to purple. The petals are often tightly packed, creating a full, rounded appearance."
         },
         {
             "imgPath": "img/images/flower3.webp",
             "flower": "Poppy",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Poppies feature delicate, paper-like petals, often in bright red or orange. They have a prominent dark center surrounded by black seeds."
         },
         {
             "imgPath": "img/images/flower4.webp",
             "flower": "Hyacinth",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Hyacinths are known for their dense clusters of small, bell-shaped flowers, which come in colors like purple, pink, blue, and white. They also have a strong, sweet fragrance."
         },
         {
             "imgPath": "img/images/flower5.jpg",
             "flower": "Hydrangea",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Hydrangeas have large, globe-like clusters of flowers in shades of blue, pink, or white. The flowers are often star-shaped and can change color depending on soil pH."
         },
         {
             "imgPath": "img/images/flower6.jpg",
             "flower": "Petunia",
             "hemisphere": "Southern",
-            "description": "lorem"
+            "description": "Petunias have funnel-shaped flowers with ruffled edges, available in vibrant colors such as pink, purple, red, and white. Their petals have a smooth texture, and the flowers often feature a slight fragrance."
         },
         {
             "imgPath": "img/images/flower7.webp",
             "flower": "Lavender",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Lavender features tall spikes of tiny purple flowers, with a fragrant, soothing aroma. Its narrow, silvery leaves complement the flowers, which are often used in aromatherapy."
         },
         {
             "imgPath": "img/images/flower8.webp",
             "flower": "Rose",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Roses are characterized by their multi-layered petals and come in many colors, including red, pink, white, and yellow. They have a distinct, sweet fragrance and thorny stems."
         },
         {
             "imgPath": "img/images/flower9.jpg",
             "flower": "Peony",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Peonies have large, rounded blooms with soft, ruffled petals. They are often pink, white, or red, and are known for their sweet fragrance and lush, full appearance."
         },
         {
             "imgPath": "img/images/flower10.webp",
             "flower": "Sunflower",
             "hemisphere": "Northern",
-            "description": "lorem"
+            "description": "Sunflowers have large, yellow, daisy-like petals surrounding a dark brown or black center. They stand tall, often facing the sun, and are recognized for their cheerful appearance."
         }
     ]
 }
